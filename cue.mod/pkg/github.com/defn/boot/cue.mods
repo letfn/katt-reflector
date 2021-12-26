@@ -1,0 +1,3 @@
+module github.com/defn/boot
+
+cue v0.4.0
