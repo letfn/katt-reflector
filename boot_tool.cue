@@ -20,9 +20,10 @@ command: bundle: _bundle.commands
 
 _bundle: boot.#Bundle & {
 	repo_name:     "katt-reflector"
+	version:       "6.1.16"
+	namespace:     "reflector"
+	install:       "reflector"
 	chart_repo:    "https://emberstack.github.io/helm-charts"
 	chart_name:    "reflector"
 	chart_version: "6.1.16"
-	install:       "reflector"
-	namespace:     "reflector"
 }
